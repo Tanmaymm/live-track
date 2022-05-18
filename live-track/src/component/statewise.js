@@ -1,4 +1,5 @@
 import {React,useState,useEffect} from 'react'
+import './statewise.css';
 
 function print(x){
   console.log(x)
@@ -26,9 +27,9 @@ const Statewise  = () => {
   return (
     <>
     <h1> India COVID_update</h1>
-    <table>
+    <table >
       <thead>
-        <tr>
+        <tr >
           <th>state</th>
 <th>loc</th>
 <th>confirmedCasesIndian</th>
@@ -45,7 +46,7 @@ const Statewise  = () => {
     </table>
     
     </>
-  )
+  ) 
 }
 
 export default Statewise 
@@ -65,3 +66,4 @@ function TableElement(e) {
     </>
   )
 }
+
