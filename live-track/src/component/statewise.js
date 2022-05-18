@@ -29,14 +29,14 @@ const Statewise  = () => {
     <h1> India COVID_update</h1>
     <table >
       <thead>
-        <tr >
-          <th>state</th>
-<th>loc</th>
-<th>confirmedCasesIndian</th>
-<th>confirmedCasesForeign</th>
-<th>discharged</th>
-<th>deaths</th>
-<th>totalConfirmed</th>
+        <tr>
+              <th>state</th>
+    <th>loc</th>
+    <th>confirmedCasesIndian</th>
+    <th>confirmedCasesForeign</th>
+    <th>discharged</th>
+    <th>deaths</th>
+    <th>totalConfirmed</th>
         </tr>
       </thead>
       <tbody>
@@ -61,7 +61,7 @@ function TableElement(e) {
       <td>{e['confirmedCasesForeign']} </td>
       <td>{e['discharged']} </td>
       <td>{e['deaths']} </td>
-      <td>{e['totalConfirmed']} </td>
+      <td>{e['totalConfirmed']}</td>
     </tr>
     </>
   )
