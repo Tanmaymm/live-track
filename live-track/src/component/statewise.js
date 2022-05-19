@@ -31,8 +31,7 @@ const Statewise  = () => {
       <thead>
         <tr>
               <th>state</th>
-    <th>loc</th>
-    <th>confirmedCasesIndian</th>
+ <th>confirmedCasesIndian</th>
     <th>confirmedCasesForeign</th>
     <th>discharged</th>
     <th>deaths</th>
