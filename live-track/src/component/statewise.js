@@ -30,7 +30,7 @@ const Statewise  = () => {
     <table >
       <thead>
         <tr>
-    <th>state</th>
+    <th>loc</th>
     <th>confirmedCasesIndian</th>
     <th>confirmedCasesForeign</th>
     <th>discharged</th>
